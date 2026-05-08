@@ -282,13 +282,20 @@ nav a:hover {
 .card.purple h2 { color: #6a1b9a; }
 
 .card.gradient {
-    background: linear-gradient(135deg, #880e4f, #c62828);
-    border-left: 5px solid #b71c1c;
+    background: linear-gradient(135deg, #9c27b0, #7b1fa2);
+    border-left: 5px solid #6a1b9a;
     color: white;
 }
 
-.card.gradient h2 { color: white; }
-.card.gradient p { color: #fce4ec; font-size: 18px; }
+.card.gradient h2 {
+    color: #880e4f;
+    text-shadow: none;
+}
+
+.card.gradient p {
+    color: #ffffff;
+    font-size: 18px;
+}
 
 .btn-next {
     display: inline-block;
